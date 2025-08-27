@@ -1,0 +1,6 @@
+vim.cmd("nmap <C-s> :wa<CR>")
+vim.cmd("nmap <Leader>s :source %<CR>")
+vim.cmd("nmap <Leader>ca :lua vim.lsp.buf.code_action()<CR>")
+vim.cmd("nmap <Leader>r :!cargo run<CR>")
+vim.cmd("nmap <Leader>t :!anchor test<CR>")
+vim.cmd("nmap <Leader>c :!RUSTFLAGS='-Awarnings' cargo check<CR>")
